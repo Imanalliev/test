@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    background: #191919;
+}
+/*HEADER*/
+
+#hero{
+    background: #191919;
+    padding: 20px 0;
+}
+.header h1{
+    color: white;
+}
+.header-nav a {
+    font-size: 20px;
+    color: #fdfdfe;
+    margin: 0 20px;
+    transition: 2s;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-nav a:hover{
+    color: darkblue ;
+}
+.one {
+    display: flex;
+}
+.one img{
+    display: flex;
+    margin: 45px 85px 34px 0;
+    width: 650px;
+    height: 873px;
+}
+.one-text h2{
+    margin: 434px 0 0;
+    font-size: 51px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
